@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>FlashWash Plans</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <style> body { font-family: 'Roboto', sans-serif; } </style>
+  <style>body { font-family: 'Roboto', sans-serif; }</style>
 </head>
 <body class="bg-white text-gray-800">
-
-  <!-- Navigation Bar -->
   <header class="bg-[#2a3c44] text-white py-4">
     <div class="max-w-6xl mx-auto flex justify-between items-center px-6">
       <div class="flex items-center space-x-4">
@@ -26,53 +24,62 @@
     </div>
   </header>
 
-  <!-- Pricing Section -->
   <main class="max-w-6xl mx-auto py-10 px-6">
     <h1 class="text-4xl font-bold text-center text-[#2a3c44] mb-10">Subscription Plans</h1>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-      <!-- Basic Plan -->
       <div class="border rounded-lg p-6 shadow-lg">
-        <h2 class="text-2xl font-semibold text-[#2a3c44]">🧼 Basic Plan</h2>
-        <p class="text-sm text-gray-600">4 washes/month</p>
-        <p class="text-3xl font-bold my-4 text-[#38b2ac]">R399</p>
+        <h2 class="text-2xl font-semibold text-[#2a3c44]">Basic Plan</h2>
+        <p class="text-sm text-gray-600">FlashWash Basic Plan</p>
+        <p class="text-3xl font-bold my-4 text-[#38b2ac]">R399.00</p>
         <ul class="text-sm mb-4">
-          <li>✔️ Basic exterior wash</li>
           <li>✔️ Valid at all partner car washes</li>
+          <li>✔️ Track usage monthly</li>
         </ul>
-        <a href="#" class="block bg-[#38b2ac] hover:bg-[#319e9a] text-white text-center py-2 rounded">Subscribe</a>
+        
+    <form action="https://www.payfast.co.za/eng/process" method="post">
+        <input type="hidden" name="merchant_id" value="30720513"/><input type="hidden" name="merchant_key" value="46bdb30e-4fd0-43e3-b749-85fd49bca7f4"/><input type="hidden" name="amount" value="399.00"/><input type="hidden" name="item_name" value="FlashWash Basic Plan"/><input type="hidden" name="return_url" value="https://flashwash-pricing-page.vercel.app"/><input type="hidden" name="cancel_url" value="https://flashwash-pricing-page.vercel.app"/><input type="hidden" name="notify_url" value="https://flashwash-pricing-page.vercel.app/payment-notify"/><input type="hidden" name="signature" value="14f681012860bccdff6832f5d989bcca"/>
+        <button type="submit" class="block bg-[#38b2ac] hover:bg-[#319e9a] text-white text-center py-2 w-full rounded">Subscribe</button>
+    </form>
+    
       </div>
 
-      <!-- Standard Plan -->
       <div class="border rounded-lg p-6 shadow-lg">
-        <h2 class="text-2xl font-semibold text-[#2a3c44]">✨ Standard Plan</h2>
-        <p class="text-sm text-gray-600">6 washes/month</p>
-        <p class="text-3xl font-bold my-4 text-[#38b2ac]">R699</p>
+        <h2 class="text-2xl font-semibold text-[#2a3c44]">Standard Plan</h2>
+        <p class="text-sm text-gray-600">FlashWash Standard Plan</p>
+        <p class="text-3xl font-bold my-4 text-[#38b2ac]">R699.00</p>
         <ul class="text-sm mb-4">
-          <li>✔️ Exterior + interior cleaning</li>
-          <li>✔️ Priority service at partner sites</li>
+          <li>✔️ Valid at all partner car washes</li>
+          <li>✔️ Track usage monthly</li>
         </ul>
-        <a href="#" class="block bg-[#38b2ac] hover:bg-[#319e9a] text-white text-center py-2 rounded">Subscribe</a>
+        
+    <form action="https://www.payfast.co.za/eng/process" method="post">
+        <input type="hidden" name="merchant_id" value="30720513"/><input type="hidden" name="merchant_key" value="46bdb30e-4fd0-43e3-b749-85fd49bca7f4"/><input type="hidden" name="amount" value="699.00"/><input type="hidden" name="item_name" value="FlashWash Standard Plan"/><input type="hidden" name="return_url" value="https://flashwash-pricing-page.vercel.app"/><input type="hidden" name="cancel_url" value="https://flashwash-pricing-page.vercel.app"/><input type="hidden" name="notify_url" value="https://flashwash-pricing-page.vercel.app/payment-notify"/><input type="hidden" name="signature" value="a82f962861897dab92a8eeab4c5b10ea"/>
+        <button type="submit" class="block bg-[#38b2ac] hover:bg-[#319e9a] text-white text-center py-2 w-full rounded">Subscribe</button>
+    </form>
+    
       </div>
 
-      <!-- Premium Plan -->
       <div class="border rounded-lg p-6 shadow-lg">
-        <h2 class="text-2xl font-semibold text-[#2a3c44]">👨‍👩‍👧‍👦 Premium Plan</h2>
-        <p class="text-sm text-gray-600">10 washes/month</p>
-        <p class="text-3xl font-bold my-4 text-[#38b2ac]">R999</p>
+        <h2 class="text-2xl font-semibold text-[#2a3c44]">Premium Plan</h2>
+        <p class="text-sm text-gray-600">FlashWash Premium Plan</p>
+        <p class="text-3xl font-bold my-4 text-[#38b2ac]">R999.00</p>
         <ul class="text-sm mb-4">
-          <li>✔️ Full valet service</li>
-          <li>✔️ Covers multiple vehicles</li>
+          <li>✔️ Valid at all partner car washes</li>
+          <li>✔️ Track usage monthly</li>
         </ul>
-        <a href="#" class="block bg-[#38b2ac] hover:bg-[#319e9a] text-white text-center py-2 rounded">Subscribe</a>
+        
+    <form action="https://www.payfast.co.za/eng/process" method="post">
+        <input type="hidden" name="merchant_id" value="30720513"/><input type="hidden" name="merchant_key" value="46bdb30e-4fd0-43e3-b749-85fd49bca7f4"/><input type="hidden" name="amount" value="999.00"/><input type="hidden" name="item_name" value="FlashWash Premium Plan"/><input type="hidden" name="return_url" value="https://flashwash-pricing-page.vercel.app"/><input type="hidden" name="cancel_url" value="https://flashwash-pricing-page.vercel.app"/><input type="hidden" name="notify_url" value="https://flashwash-pricing-page.vercel.app/payment-notify"/><input type="hidden" name="signature" value="3d40abe3ef444bbe794741f6026bee17"/>
+        <button type="submit" class="block bg-[#38b2ac] hover:bg-[#319e9a] text-white text-center py-2 w-full rounded">Subscribe</button>
+    </form>
+    
       </div>
 
     </div>
   </main>
-
   <footer class="text-center text-sm text-gray-500 py-6">
     &copy; 2025 FlashWash. All rights reserved.
   </footer>
-
 </body>
 </html>
